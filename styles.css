@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+.main{
+	max-width:100%;
+	height:100%;
+	margin:0px;
+	padding:10px;
+	background:#f5f5f5;
+	box-sizing:content-box;
+	border:none;
+	
+}
+
+#header{
+	margin:0px;
+	padding:20px;
+	background:#011e29;
+	color:white;
+	text-align:center;
+	
+}
+#Latest{
+	width:30%;
+	margin:5px;
+	padding:10px;	
+	background:white;
+	color:black;
+	text-align:center;
+	border-radius:10px;
+	
+}
+#Article{
+	width:50%;
+	margin:5px;
+	padding:10px;	
+	background:white;
+	color:black;
+	text-align:center;
+	border-radius:10px;
+}
+#Pictorial{
+	width:30%;
+	margin:5px;
+	padding:10px;	
+	background:white;
+	color:black;
+	text-align:center;
+	border-radius:10px;
+}
