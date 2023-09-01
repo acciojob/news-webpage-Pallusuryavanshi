@@ -20,8 +20,9 @@
 	display:flex;
 	justify-contet:center;
 }
-#Latest-news-section{
+.Latest-news-section{
 	width:30%;
+	height:20%;
 	margin:5px;
 	padding:10px;	
 	background:white;
@@ -40,7 +41,7 @@
 	text-align:center;
 	border-radius:10px;
 }
-#Pictorial-news-section{
+.Pictorial-news-section{
 	width:30%;
 	height:100%;
 	margin:5px;
