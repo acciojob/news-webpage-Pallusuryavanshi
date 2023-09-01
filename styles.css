@@ -1,13 +1,12 @@
 /*  your css code here. If applicable */
 .main{
-	max-width:100%;
-	height:100%;
+	max-width:100vw;
+	height:100vh;
 	margin:0px;
 	padding:10px;
 	background:#f5f5f5;
 	box-sizing:content-box;
 	border:none;
-	
 }
 
 #header{
@@ -16,7 +15,10 @@
 	background:#011e29;
 	color:white;
 	text-align:center;
-	
+}
+.div{
+	display:flex;
+	justify-contet:center;
 }
 #Latest{
 	width:30%;
@@ -39,10 +41,16 @@
 }
 #Pictorial{
 	width:30%;
+	height:100%;
 	margin:5px;
 	padding:10px;	
 	background:white;
 	color:black;
 	text-align:center;
 	border-radius:10px;
+}
+img{
+	width:50%;
+	height:50%;
+	object-fit:cover;
 }
